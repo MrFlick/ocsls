@@ -1,0 +1,22 @@
+Package: ocsls
+Type: Package
+Title: Online College Social Life Survey Data
+Version: 0.1.0
+Author: Matthew Flickinger
+Maintainer: Matthew Flickinger <mrflick@gmail.com>
+Description: Survey results from the Online College 
+    Social Life Survey (OCSLS). The OCSLS was 
+    designed by Paula England and collected between 
+    Autumn 2005-Spring 2011 at twenty-one four-year 
+    colleges and universities in the United 
+    States. Data downloaded from
+    http://www.nyu.edu/projects/england/ocsls/
+    on May 10, 2017.
+Imports:
+  tibble
+License: CC0
+URL: http://github.com/mrflick/ocsls
+BugReports: http://github.com/mrflick/ocsls/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
