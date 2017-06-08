@@ -7,7 +7,7 @@
 #' @export
 
 find_var <- function(x, tables=c("students","dates","romances","hookups")) {
-    sapply(tables, function(table) {
+    lapply(tables, function(table) {
         grep(x, names(get(table)), value=TRUE)
     })
 }
